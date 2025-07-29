@@ -58,7 +58,7 @@ nav ul li a:hover {
     color: #0066cc;
 }
 
-/* Header */
+
 header {
     background: linear-gradient(to right, #0066cc, #33b1ff);
     color: white;
@@ -95,7 +95,7 @@ header p {
     transform: scale(1.05);
 }
 
-/* About Section */
+
 .about-flex {
     display: flex;
     flex-direction: column-reverse;
@@ -120,7 +120,7 @@ header p {
     transform: scale(1.05);
 }
 
-/* Sections */
+
 section h2 {
     font-size: 2rem;
     color: #0066cc;
@@ -142,7 +142,7 @@ section p {
     margin-bottom: 1rem;
 }
 
-/* Testimonials */
+
 #testimonials em {
     background: #f1f9ff;
     padding: 1rem;
@@ -152,7 +152,7 @@ section p {
     font-style: italic;
 }
 
-/* Ratings Section */
+
 #ratings {
     text-align: center;
     padding: 4rem 0;
@@ -168,7 +168,6 @@ section p {
 .stars {
     font-size: 2.2rem;
     color: #ffc107;
-    /* golden stars */
     letter-spacing: 4px;
 }
 
@@ -221,7 +220,7 @@ section p {
 .badges {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
     margin-top: 1.5rem;
     font-size: 1.1rem;
