@@ -156,21 +156,25 @@
                 <li><strong>📞 Phone:</strong> <a href="tel:+923221403044">03221403044</a></li>
                 <li><strong>💬 WhatsApp:</strong> <a href="https://wa.me/92300XXXXXXX" target="_blank">Chat on
                         WhatsApp</a></li>
-                <li><strong>📧 Email:</strong> <a href="mailto:physiowithsania@gmail.com">physiowithsania@gmail.com</a>
+                <li><strong>📧 Email:</strong> <a href="mailto:saniaakhann77@gmail.com"> saniaakhann77@gmail.com</a>
                 </li>
                 <li><strong>📍 Location:</strong> Gulberg III, Lahore</li>
             </ul>
+            <form name="contact" method="POST" data-netlify="true" class="contact-form" action="thank-you.html">
+                <input type="hidden" name="form-name" value="contact" />
 
-            <form action="https://formspree.io/f/mnqeyjvy" method="POST" class="contact-form">
                 <label for="name">Your Name:</label>
-                <input type="text" name="name" id="name" required />
+                <input type="text" name="name" id="name" required minlength="3" pattern="^[A-Za-z\s]{3,}$"
+                    title="Enter your full name (at least 3 letters)" />
 
                 <label for="email">Your Email or WhatsApp:</label>
-                <input type="text" name="email" id="email" required />
+                <input type="text" name="email" id="email" required pattern="^.{6,}$"
+                    title="Must be a valid email or WhatsApp number with at least 6 characters" />
 
                 <label for="message">Briefly describe your issue or goal:</label>
-                <textarea name="message" id="message" rows="4" placeholder=" E.g, Orthopedic Therapy."
-                    required></textarea>
+                <textarea name="message" id="message" rows="4" required minlength="10" pattern="^.{10,}$"
+                    placeholder="E.g., Need help with back pain recovery."
+                    title="Message must be at least 10 characters long"></textarea>
 
                 <button type="submit" class="btn">Claim Free Trial</button>
             </form>
