@@ -4,7 +4,7 @@ A responsive landing page for a physiotherapy clinic, offering free trial sessio
 
 ## 🌐 Live Demo
 
-👉 [View Live Site](https://physiowithsania.netlify.app/)
+👉 [View Live Site](https://physioflexbysania.netlify.app/)
 
 ## 🚀 Features
 
